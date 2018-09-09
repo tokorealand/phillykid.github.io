@@ -24,7 +24,7 @@ const Project = (props) => {
                     </Typography>
                     </CardContent>
                     <CardActions>
-                    <Button size="small" color="primary" href={props.project.fields.url} target="_blank">
+                    <Button size="small" color="primary" href={props.project.fields.repo} target="_blank">
                         Go To project
                     </Button>
                     </CardActions>
