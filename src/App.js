@@ -11,6 +11,8 @@ import ProjectList from './components/ProjectList';
 import CourseList from './components/CourseList';
 import LeadershipList from './components/LeadershipList';
 import ExperienceList from './components/ExperienceList';
+import PLanguageList from './components/P_LanguageList';
+
 
 
 
@@ -37,6 +39,8 @@ class App extends Component {
         <ExperienceList />
         <Sectionheader> Leadership</Sectionheader>
         <LeadershipList />
+        <Sectionheader> Skills</Sectionheader>
+        <PLanguageList />
         <Sectionheader> Projects</Sectionheader>
         <ProjectList />
       </div>

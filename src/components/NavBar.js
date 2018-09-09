@@ -4,7 +4,6 @@ import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import styled from 'styled-components';
 import media from "styled-media-query";
 import Toolbar from '@material-ui/core/Toolbar'
-import Typography from '@material-ui/core/Typography'
 import logo from '../luislogo.png' // relative path to image 
 import'./NavBar.css'
 

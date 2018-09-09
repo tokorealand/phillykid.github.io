@@ -10,7 +10,6 @@ import {Envelope} from 'styled-icons/fa-regular'
 
 
 var icon_color='black',icon_height='5vh',icon_width='5vw'
-,icon_height_small='10vh',icon_width_small='10vw'
 ,icon_height_medium='7.5vh',icon_width_medium='7.5vw';
 
 
@@ -21,24 +20,10 @@ const Wrapper = styled.section`
   margin-left: auto;
   margin-right: auto;
   align-content: center;
-  widht:100vw;
   text-align:center;`
 
   const Page = styled.section`
   background: white;
-  
-
-  ${media.lessThan("medium")`
-  /* screen width is less than 768px (medium) */
-`}
-
-${media.between("medium", "large")`
-  /* screen width is between 768px (medium) and 1170px (large) */
-`}
-
-${media.greaterThan("large")`
-  /* screen width is greater than 1170px (large) */
-`}
 `;
 
 const Title = styled.h1`
@@ -65,7 +50,7 @@ const Sectionheader = styled.h2`
 const Description = styled.p`
   font-size: 3vw;
   text-align: center;
-  padding:10px;
+  padding:30px;
   color: black;
 `;
 
@@ -102,21 +87,24 @@ ${media.between("medium", "large")`
   margin-left: auto;
   margin-right: auto;
   
+  
 
-  ${media.lessThan("medium")`
+  ${media.between("small", "767px")`
   /* screen width is less than 768px (medium) */
   display: block;
-  width: ${icon_width_small};
-  height: ${icon_height_small};
+  width: ${icon_width_medium};
+  height: ${icon_height_medium};
+
 
 `}
 
-${media.between("medium", "large")`
-  /* screen width is between 768px (medium) and 1170px (large) */
+${media.between("767px", "large")`
+  /* screen width is between 767px (medium) and 1170px (large) */
   width: ${icon_width_medium};
   height: ${icon_height_medium};
   margin-left: 30px;
   margin-right: 30px;
+  
 `}
 
 ${media.greaterThan("large")`
@@ -141,20 +129,22 @@ ${media.greaterThan("large")`
   margin-right: auto;
   
 
-  ${media.lessThan("medium")`
+  ${media.between("small", "767px")`
   /* screen width is less than 768px (medium) */
   display: block;
-  width: ${icon_width_small};
-  height: ${icon_height_small};
+  width: ${icon_width_medium};
+  height: ${icon_height_medium};
+
 
 `}
 
-${media.between("medium", "large")`
-  /* screen width is between 768px (medium) and 1170px (large) */
+${media.between("767px", "large")`
+  /* screen width is between 767px (medium) and 1170px (large) */
   width: ${icon_width_medium};
   height: ${icon_height_medium};
   margin-left: 30px;
   margin-right: 30px;
+  
 `}
 
 ${media.greaterThan("large")`
@@ -176,21 +166,22 @@ ${media.greaterThan("large")`
   margin-right: auto;
  
 
-  ${media.lessThan("medium")`
+  ${media.between("small", "767px")`
   /* screen width is less than 768px (medium) */
   display: block;
-  width: ${icon_width_small};
-  height: ${icon_height_small};
-  
+  width: ${icon_width_medium};
+  height: ${icon_height_medium};
+
 
 `}
 
-${media.between("medium", "large")`
-  /* screen width is between 768px (medium) and 1170px (large) */
+${media.between("767px", "large")`
+  /* screen width is between 767px (medium) and 1170px (large) */
   width: ${icon_width_medium};
   height: ${icon_height_medium};
   margin-left: 30px;
   margin-right: 30px;
+  
 `}
 
 ${media.greaterThan("large")`
