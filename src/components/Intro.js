@@ -211,16 +211,15 @@ const Intro = () => {
             <Wrapper>
             <a href="https://github.com/phillykid"><Gitlogo/></a>
             <a href="https://www.linkedin.com/in/phillycoder/"><Linkedinlogo/></a>
-            <a href="mailto:lopezl@lafayette.edu"><Emailicon/></a>
+            <a href="mailto:me@luislopez.dev"><Emailicon/></a>
             </Wrapper>
 
             </div>
 
             <div id="About">
             <Sectionheader> About</Sectionheader>
-           <Description>A multilingual senior at Lafayette College majoring in Computer Science and Economics with 
-             a Financial Analysis and Policy certificate. Interested in software engineering, web development, 
-             data analysis, stocks, financial markets, and machine learning. Seeking job opportunities starting Summer 2019.  </Description>
+           <Description>Graduated from Lafayette College in 2019 with a double major in Computer Science and Economics with a Financial Analysis and Policy Certificate and currently working as a Software/ML Engineer for Ford Credit. I have a huge passion for tech and a keen interest in finance. 
+Open to full-stack job opportunities having a react front-end with some partiality towards fintech openings, but feel free to reach out on Linkedin. </Description>
 
             </div>
 
