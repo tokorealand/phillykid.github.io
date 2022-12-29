@@ -18,7 +18,7 @@
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-native-collapsible": "^0.13.0",
-    "react-scripts": "1.1.5",
+    "react-scripts": "5.0.1",
     "react-static-google-map": "^0.5.1",
     "styled-components": "^3.4.5",
     "styled-icons": "^2.4.0",
